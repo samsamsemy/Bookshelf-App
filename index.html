@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Pengelolaan Data Buku</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/bootstarp/css-bootstrap/bootstrap.css"
+    />
+  </head>
+  <body class="bg-success p-2 text-dark bg-opacity-50">
+    <div class="container my-5">
+      <h1>Aplikasi Pengelolaan Data Buku</h1>
+      <div class="form-container">
+        <form id="book-form">
+          <input type="text" id="title" placeholder="Judul Buku" required />
+          <input type="text" id="author" placeholder="Penulis" required />
+          <input type="number" id="year" placeholder="Tahun Terbit" required />
+          <select class="my-2" id="status">
+            <option value="selesai">Selesai Dibaca</option>
+            <option value="belum">Belum Selesai Dibaca</option>
+          </select>
+          <button type="submit">Tambah Buku</button>
+        </form>
+      </div>
+      <div id="book-lists" class="book-lists">
+        <div id="selesai-dibaca" class="book-rack">
+          <h2>Selesai Dibaca</h2>
+          <table id="selesai-table">
+            <thead>
+              <tr>
+                <th>Judul Buku</th>
+                <th>Penulis</th>
+                <th>Tahun Terbit</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="selesai-list"></tbody>
+          </table>
+        </div>
+        <div id="belum-selesai-dibaca" class="book-rack">
+          <h2>Belum Selesai Dibaca</h2>
+          <table id="belum-table">
+            <thead>
+              <tr>
+                <th>Judul Buku</th>
+                <th>Penulis</th>
+                <th>Tahun Terbit</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="belum-list"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="./assets/bootstarp/js-bootstrap/bootstrap.js"></script>
+  </body>
+</html>
