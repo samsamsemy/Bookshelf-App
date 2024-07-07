@@ -1,7 +1,7 @@
 # Bookshelf-App
 
 ## 💫 About Me:
-Proyek Aplikasi Pengelolaan Data Buku<br>📅 Tanggal Pembuatan: 15-Feb-2024 07:47:28<br>🎓 Proyek Akhir Dicoding<br><br>Aplikasi ini memungkinkan pengguna untuk menambahkan buku yang telah dibaca maupun yang belum selesai dibaca ke dalam daftar. Fitur utama meliputi:<br><br>📚 Menambahkan Buku<br>Pengguna dapat menambahkan buku dengan memasukkan judul, penulis, tahun terbit, dan status baca.<br><br>🔄 Memindahkan Buku<br>Buku dapat dipindahkan antara daftar "Selesai Dibaca" dan "Belum Selesai Dibaca".<br><br>🗑️ Menghapus Buku<br>Pengguna dapat menghapus buku dari daftar.<br><br>💾 Penyimpanan Data<br>Data buku disimpan menggunakan localStorage sehingga tetap tersimpan meskipun halaman di-refresh.
+Proyek Aplikasi Pengelolaan Data Buku<br>📅 Tanggal Penyelesaian Proyek: 15-Feb-2024 07:47:28<br>🎓 Proyek Akhir Dicoding<br><br>Aplikasi ini memungkinkan pengguna untuk menambahkan buku yang telah dibaca maupun yang belum selesai dibaca ke dalam daftar. Fitur utama meliputi:<br><br>📚 Menambahkan Buku<br>Pengguna dapat menambahkan buku dengan memasukkan judul, penulis, tahun terbit, dan status baca.<br><br>🔄 Memindahkan Buku<br>Buku dapat dipindahkan antara daftar "Selesai Dibaca" dan "Belum Selesai Dibaca".<br><br>🗑️ Menghapus Buku<br>Pengguna dapat menghapus buku dari daftar.<br><br>💾 Penyimpanan Data<br>Data buku disimpan menggunakan localStorage sehingga tetap tersimpan meskipun halaman di-refresh.
 
 
 ## 💻 Tech Stack:
